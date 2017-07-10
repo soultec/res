@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "LucidaConsole";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lucida-Console/LUCON.TTF") format("truetype");
+}
+
+/* colors */
+$darkGrey: #222222;
+$grey: #444444;
+$black: #000000;
+
+.clearfix:before, 
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+* {
+    font-family: "LucidaConsole", Verdana, Times;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+html, body {
+    background-color:$grey;
+    color:$teal;
+}
+
+body {
+	position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
